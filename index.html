@@ -91,7 +91,7 @@ Credits to Jan van Gemert for allowing us to use his original design.
 <!-- libary that loads and renders pdf files -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.0.943/pdf.js"></script>
 <!-- libary that loads and renders pdf previous as images -->
-<script src="./js/pdfThumbnails.js"></script>
+<script src="js/pdfThumbnails.js"></script>
 
 <script>
 
@@ -139,7 +139,7 @@ Credits to Jan van Gemert for allowing us to use his original design.
                         alt="poster_teaser"
                         data-pdf-thumbnail-file="${item['posterUrl']}"
                         style="position: absolute; top: 0; width:100%;"
-                        src="./images/background.png"
+                        src="images/background.png"
                         >
                     </div>
                     <div class="middle">
@@ -179,7 +179,7 @@ Credits to Jan van Gemert for allowing us to use his original design.
             return {
                 groupName: `RP Group ${idx + 1}`,
                 title: poster,
-                posterUrl: `./posters/${poster}.pdf`,
+                posterUrl: `posters/${poster}.pdf`,
                 paperUrl: "#TODO",
             };
         })
